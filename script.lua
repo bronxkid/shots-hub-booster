@@ -12,14 +12,14 @@ local Window = Luna:CreateWindow({
 		ConfigFolder = "ShotsHubBooster" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
 	},
 
-	KeySystem = false, -- As Of Beta 6, Luna Has officially Implemented A Key System!
+	KeySystem = true, -- As Of Beta 6, Luna Has officially Implemented A Key System!
 	KeySettings = {
 		Title = "Luna Example Key",
 		Subtitle = "Key System",
 		Note = "Best Key System Ever! Also, Please Use A HWID Keysystem like Pelican, Luarmor etc. that provide key strings based on your HWID since putting a simple string is very easy to bypass",
 		SaveInRoot = false, -- Enabling will save the key in your RootFolder (YOU MUST HAVE ONE BEFORE ENABLING THIS OPTION)
 		SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-		Key = {"Example Key"}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+		Key = {"https://keyguardian.org/services/4680/key?tab=default"}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
 		SecondAction = {
 			Enabled = true, -- Set to false if you do not want a second action,
 			Type = "Link", -- Link / Discord.
@@ -34,7 +34,7 @@ local Tab = Window:CreateTab({
 	ShowTitle = true -- This will determine whether the big header text in the tab will show
 })
 local Button = Tab:CreateButton({
-	Name = "Button Example!",
+	Name = "FF2",
 	Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
     	Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dejaunisgood/Nnnn/refs/heads/main/obfuscated.lua%20(14).txt"))()   -- The function that takes place when the button is pressed
