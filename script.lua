@@ -12,7 +12,7 @@ local Window = Luna:CreateWindow({
 		ConfigFolder = "ShotsHubBooster" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
 	},
 
-	KeySystem = true, -- As Of Beta 6, Luna Has officially Implemented A Key System!
+	KeySystem = false, -- As Of Beta 6, Luna Has officially Implemented A Key System!
 	KeySettings = {
 		Title = "Luna Example Key",
 		Subtitle = "Key System",
