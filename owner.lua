@@ -37,7 +37,8 @@ local Button = Tab:CreateButton({
 	Name = "FF2",
 	Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
     	Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Dejaunisgood/Nnnn/refs/heads/main/obfuscated.lua%20(14).txt"))()   -- The function that takes place when the button is pressed
+      script_key="NkDSdIsxMdpcxKDPrxfwJMVPFgHrKYlE";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tyrant0Dev/Tyrant/refs/heads/main/loader"))()   -- The function that takes place when the button is pressed
     	end
 })
 local Button = Tab:CreateButton({
