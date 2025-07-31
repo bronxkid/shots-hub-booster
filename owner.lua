@@ -2,7 +2,7 @@ local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-S
 local Window = Luna:CreateWindow({
 	Name = "Shots's Owner script", -- This Is Title Of Your Window
 	Subtitle = nil, -- A Gray Subtitle next To the main title.
-	LogoID = "82795327169782", -- The Asset ID of your logo. Set to nil if you do not have a logo for Luna to use.
+	LogoID = "139449094483047", -- The Asset ID of your logo. Set to nil if you do not have a logo for Luna to use.
 	LoadingEnabled = true, -- Whether to enable the loading animation. Set to false if you do not want the loading screen or have your own custom one.
 	LoadingTitle = "Welcome Shots.", -- Header for loading screen
 	LoadingSubtitle = "You Are The Owner.", -- Subtitle for loading screen
@@ -54,3 +54,10 @@ local Button = Tab:CreateButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/bronxkid/thabronx3/refs/heads/main/e"))()
 	end
 })
+local Button = Tab:createButton({
+	Name = "Hoopz",
+	Description = nil,
+	Callback = function()
+       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bf15a15feb3e074f81db01496cbb48e2.lua"))()
+	end
+})	
