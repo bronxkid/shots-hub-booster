@@ -63,3 +63,9 @@ local Button = Tab:CreateButton({
 	loadstring(game:HttpGet("https://rawscripts.net/raw/EASTER-NFL-Universe-Football-Kali-Hub-NFL-UNIVERSE-GUI-2025-36968"))()
 	end
 })
+local Button = Tab:CreateButton({
+	Name = "Tha Bronx 3",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/bronxkid/thabronx3/refs/heads/main/e"))()
+	end
+})
