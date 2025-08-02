@@ -35,28 +35,25 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local Tab = Window:CreateTab("Basketball Legends", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Booster Scripts", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "Basketball Legends",
 	Callback = function()
        loadstring(game:HttpGet('https://api.exploitingis.fun/loader', true))()
 	end
 })
-local Tab = Window:CreateTab("Hoopz", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "Hoopz",
 	Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/bw7dd/loader/refs/heads/main/loader"))()
 	end
 })	
-local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "SAB",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
 	end
 })
-local Tab = Window:CreateTab("NFL Universe Football", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
 	Name = "NFL Universe Football",
 	Callback = function()
