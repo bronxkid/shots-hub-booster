@@ -56,3 +56,10 @@ local Button = Tab:CreateButton({
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
 	end
 })
+local Tab = Window:CreateTab("NFL Universe Football", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+	Name = "NFL Universe Football",
+	Callback = function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/EASTER-NFL-Universe-Football-Kali-Hub-NFL-UNIVERSE-GUI-2025-36968"))()
+	end
+})
