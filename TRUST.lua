@@ -49,3 +49,8 @@ local Button = Tab:CreateButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/bw7dd/loader/refs/heads/main/loader"))()
 	end
 })	
+local Tab = Window:CreateTab("Steal A Brainrot", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+	Name = "SAB",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
